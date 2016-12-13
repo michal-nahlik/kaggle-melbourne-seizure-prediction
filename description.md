@@ -64,11 +64,15 @@ Instructions
  2. copy features from the old (leaked) test files into the the training feature folders (test_1 -> train_1, ...)
 
 **Running the model**
+
 Execute **/main/run_dt.m** to load the features, cross validate the solution and create submission. Model for each subject and channel will be created and if *opts.save_model* in settings.m is set to true, the models used for creating submission will be saved to *opts.modelDir*.
+
 **/main/run_trained_dt.m** can be used to load the saved models and create submission for the testing data.
+
 **/main/run_dt_general_model.m** loads data for all subjects and creates a general model (across subjects) for each channel, cross validates the solution and creates submission. This solution is cross validated the standart way and then by subject (2 subjects for training, 1 subject for testing). 
 
 **Evaluation on new data**
+
 Probably the easiest way is:
 
 1. add new training data file names, classes and safe indication into the *train_and_test_data_labels_safe.csv*
