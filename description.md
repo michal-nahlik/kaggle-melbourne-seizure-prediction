@@ -42,14 +42,14 @@ I tried to make both single subject models and general model as the general mode
 
 File structure description
 ------------------
-**/explore** - calculates predictor importance of the saved models
-**/features** - code to calculate features
-**/main** - functions to execute (train/load and run) the models 
-**/model** - helper functions for working with models
-**/opt** - model options optimization for each subject
-**/util** - functions for loading data, setting environment, evaluation, creating submission ...
-**settings.m** - file containing basic settings including data paths
-**models.zip** - archive containing pretrained models for each subject and channels which can be loaded and used to create submission with */main/run_trained_dt.m* 
+- **/explore** - calculates predictor importance of the saved models
+- **/features** - code to calculate features
+- **/main** - functions to execute (train/load and run) the models 
+- **/model** - helper functions for working with models
+- **/opt** - model options optimization for each subject
+- **/util** - functions for loading data, setting environment, evaluation, creating submission ...
+- **settings.m** - file containing basic settings including data paths
+- **models.zip** - archive containing pretrained models for each subject and channels which can be loaded and used to create submission with */main/run_trained_dt.m* 
 
 Instructions
 ------------
