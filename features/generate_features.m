@@ -54,7 +54,7 @@ function generate_features(subjectNames,options)
                 f = load(filePath);
                 disp(filePath);
                 % Calculate features
-                features = calculate_features(f);
+                features = calculate_features(f, options);
                 % Store features to featureDir
                 parsave([savePath filesep fileName],'features', features);
             else

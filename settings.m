@@ -1,6 +1,6 @@
 %% Data paths
 opts.dataDir            = 'h:\Data\MelbourneU Seizure Prediction\data';
-opts.featureDir         = 'c:\Temp\kaggle\Melbourne\features_2';
+opts.featureDir         = 'c:\Temp\kaggle\Melbourne\features';
 opts.modelDir           = 'c:\Temp\kaggle\Melbourne\models';
 
 opts.labelFile          = 'c:\Temp\kaggle\Melbourne\train_and_test_data_labels_safe.csv';
